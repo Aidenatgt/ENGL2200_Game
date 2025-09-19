@@ -42,5 +42,13 @@
       }
     ]
   },
-  "END": {}
+  "END": {
+    "prompt": "Game Over",
+    "options": [
+      {
+        "title": "Restart",
+        "next": "START"
+      }
+    ]
+  }
 }
