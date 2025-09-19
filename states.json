@@ -1,0 +1,46 @@
+{
+  "START": {
+    "prompt": "Prompt 1",
+    "options": [
+      {
+        "title": "Option A",
+        "next": "A"
+      },
+      {
+        "title": "Option B",
+        "next": "B"
+      },
+      {
+        "title": "Option C",
+        "next": "END"
+      }
+    ]
+  },
+  "A": {
+    "prompt": "Prompt 2",
+    "options": [
+      {
+        "title": "Option A",
+        "next": "B"
+      },
+      {
+        "title": "Option B",
+        "next": "END"
+      }
+    ]
+  },
+  "B": {
+    "prompt": "Prompt 3",
+    "options": [
+      {
+        "title": "Option A",
+        "next": "A"
+      },
+      {
+        "title": "Option B",
+        "next": "END"
+      }
+    ]
+  },
+  "END": {}
+}
